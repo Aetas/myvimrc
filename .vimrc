@@ -66,7 +66,7 @@ filetype off                  " required
 syntax enable
 "set background=light
 "set background=dark
-"olorscheme solarized
+"colorscheme solarized
 "colorscheme dessert
 
 """""""""""""""""""""
