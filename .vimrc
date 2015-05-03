@@ -77,6 +77,11 @@ syntax enable
 set number
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 
+" When uncommented, this will keep the working dir clean by storing all swaps elsewhere.
+" Still asks to recover from swp if left open.
+" set backupdir=~/.vim/backup/
+" set directory=~/.vim/swap/
+
 """"""""""""""""""""
 " CScope enable
 """"""""""""""""""""
