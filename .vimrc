@@ -39,6 +39,9 @@ filetype off                  " required
  " Avoid a name conflict with L9
  " Plugin 'user/L9', {'name': 'newL9'}
 
+ Plugin 'rust-lang/rust.vim'
+ " Adds rust syntax to vim
+ 
  " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
@@ -66,7 +69,7 @@ filetype off                  " required
 syntax enable
 "set background=light
 "set background=dark
-"colorscheme solarized
+"olorscheme solarized
 "colorscheme dessert
 
 """""""""""""""""""""
@@ -77,8 +80,9 @@ syntax enable
 set number
 set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 
-" When uncommented, this will keep the working dir clean by storing all swaps elsewhere.
-" Still asks to recover from swp if left open.
+" When uncommnted, this will keep the working dit clean by storing all swaps
+" elsewhere.
+" Still asks to recover from swaps if left open.
 " set backupdir=~/.vim/backup/
 " set directory=~/.vim/swap/
 
